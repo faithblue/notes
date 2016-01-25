@@ -1,0 +1,16 @@
+/*GLOBAL*/
+
+html, body {
+    width:100%;
+    height:100%;
+    /*GIVE HTML AND BODY 100% WIDTH AND HEIGHT B/C*/
+}
+
+/*NAV */
+
+#nav ul li{
+    display:inline;
+    
+    
+    
+}
