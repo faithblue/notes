@@ -11,26 +11,32 @@
         <meta name="author" content="html notes, css notes"/>
     </head>
     <body>
-        <header>
+        <header id="header">
             <nav id="nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                </ul>                
-                <ul>
+                    <li class="currentPage"><a href="index.html">Home</a></li>
                     <li><a href="html-notes.html">HTML</a></li>
-                </ul>
-                <ul>
                     <li><a href="css-notes.html">CSS</a></li>
-                </ul>
-                <ul>
                     <li><a href="javascript-notes.html">JavaScript</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <img src="#" alt="#" title="#"/>
+        <main id="main">
+            <article id="codingTools">
+                <h2 class="alignTitleMiddle">Coding Tools</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, dolore, exercitationem, esse quidem porro facilis similique ex iure sed veniam nisi laudantium quo iusto quod facere. Sit at atque saepe assumenda nihil quis facere? Hic expedita possimus quo aspernatur ducimus in earum aperiam voluptates perspiciatis. Commodi, repellendus doloremque vitae. Vitae!</p>
+            </article>
+            <article id="about">
+                <h2 class="alignTitleMiddle">HTML, CSS, and JavaScript Notes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, dolore, exercitationem, esse quidem porro facilis similique ex iure sed veniam nisi laudantium quo iusto quod facere. Sit at atque saepe assumenda nihil quis facere? Hic expedita possimus quo aspernatur ducimus in earum aperiam voluptates perspiciatis. Commodi, repellendus doloremque vitae. Vitae!</p>
+            </article>
+            <div class="mainWidth" id="indButtons">
+                <a href="html-notes.html" class="button">HTML</a>
+                <a href="css-notes.html" class="button">CSS</a>
+                <a href="javascript-notes.html" class="button">JavaScript</a>
+            </div>
         </main>
-        <footer>
+        <footer id="footer">
             <p>Copyright &copy 2015 Faith Blue. All rights reserved.</p>
         </footer>
     </body>

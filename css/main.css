@@ -1,4 +1,5 @@
 /*GLOBAL*/
+/*colors: body:382c2b, headings:3496d1, header:0E2838, p:000000, ul:382C2B footer:#0E2838, a:ffffff, */
 
 html, body {
     width:100%;
@@ -6,11 +7,116 @@ html, body {
     /*GIVE HTML AND BODY 100% WIDTH AND HEIGHT B/C*/
 }
 
+body {
+    margin:0px;
+    padding:0px;
+}
+
+li {
+    text-decoration:none;
+}
+
+a {
+    color:#000;
+    text-decoration:none;
+}
+
+h1, h2 {
+    color:#1B4D6B;
+}
+
+p {
+    color:#000000;
+}
+
+
+/*HEADER*/
+
+#header {
+    background-color:#0E2838;
+    /*width:;*/
+    height:100px;
+    padding:10px;
+    
+}
+
 /*NAV */
 
-#nav ul li{
+#nav ul {
+    background-color:#fff;
+    position:relative;
+    right:500px;
+    left:500px;
+    width:330px;
+    /*margin:0px auto;*/
+}
+ 
+#nav ul li {
+    margin:0px 10px;
     display:inline;
+    text-decoration:none;
+}
+
+.currentPage a {
+    color:#256992;
+}
+
+#nav ul li a:hover {
+    color:#1B4D6B;
+}
+
+/*MAIN*/
+
+#main {
+    margin:0px 10px;
+}
+
+.mainWidth {
+    width:300px;
+    margin:0px auto;
+    margin-top:26px;
+    margin-bottom:30px;
+}
+
+/*BUTTONS*/
+.button {
+    background-color:#999;
+    border:1px solid #FFF;
+    border-radius:5px;
+    padding:20px;
+}
+
+#indButtons {
+    margin:100px 550px;
+}
+
+
+/*FOOTER*/
+ footer {
+      text-align:center;
+      background-color:#0E2838;
+      height:120px;
+ }
+ 
+#footer p {
+    padding:25px;
+    color:#FFFFFF;
+}
+
+/*EXTRAS*/
+
+.alignTitleMiddle {
+    text-align:center;
+}
+
+.indexImg {
+    position:relative;
+    right:500px;
+    left:530px;
+    margin-top:10px;
     
-    
-    
+}
+
+.black {
+color:black;
 }

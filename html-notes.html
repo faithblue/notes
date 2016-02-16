@@ -12,55 +12,78 @@
         <meta name="author" content="html notes, css notes"/>
     </head>
     <body>
-        <header>
-            <nav>
+        <header id="header">
+            <nav id="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                </ul>                
-                <ul>
-                    <li><a href="html-notes.html">HTML</a></li>
-                </ul>
-                <ul>
+                    <li class="currentPage"><a href="html-notes.html">HTML</a></li>
                     <li><a href="css-notes.html">CSS</a></li>
-                </ul>
-                <ul>
                     <li><a href="css-notes.html">JavaScript</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <!--WHAT HTML IS START-->
-            <h2>What HTML Is</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ullam.</p>
-            <!--WHAT HTML IS END-->
+        <main id="main">
+            <article>
+                <section>
+                    <!--WHAT HTML IS START-->
+                    <div class="secColor">
+                        <h2>What HTML Is</h2>
+                        <p>HTML is a markup language for webpages. HTML stands for Hyper Text Markup Language. HTML is like the body of a webpage. It contains all the elements that you see on the webpage.</p>
+                    </div>
+                    <!--WHAT HTML IS END-->
+                    
+                    <!--WHY HTML START-->
+                    <div class="secColor"></div>
+                    <!--WHY HTML END-->
+                </section>
+            </article>
+            <article>
+                <section>
+                    <!--HOW TO START HTML File-->
+                    <div class="secColor">
+                <h2>How To Start HTML File</h2>
+                <p>To start a HTMl file...
+                <!--<!doctype html>-->
+                <!--<html lang="en">-->
+                <!--<head>-->
+                <!--    <meta charset="UTF-8">-->
+                <!--    <title>Document</title>-->
+                <!--</head>-->
+                <!--<body>-->
+                    
+                <!--</body>-->
+                <!--</html>-->
+                </p>
+            </div>
+                    <!--HOW TO START HTML DOC ENDING-->
             
-            <!--HOW TO START HTML File-->
-            <h2>How To Start HTML File</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, alias.</p>
-            <!--HOW TO START HTML DOC ENDING-->
-            
-            <!--COMMENTING TAGS-->
-            <h2>Commenting CSS Code</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, illo!</p>
-            <!--COMMENTING TAGS ENDING-->
-            
-            <!--TEXT TAGS START-->
-            <h1 class="alignTitleMiddle">HTML HEADINGS</h1>
-            <div class="headerTags">
-                <h1>Hello World</h1>
-                <h2>Hello World</h2>
-                <h3>Hello World</h3>
-                <h4>Hello World</h4>
+                    <!--COMMENTING TAGS-->
+                    <div class="secColor">
+                <h2>Commenting HTML Code</h2>
+                <p>To Comment HTML Code... </p>
+                <p>EX:</p>
+            </div>
+                    <!--COMMENTING TAGS ENDING-->
+        
+                    <!--TEXT TAGS START-->
+                    <div class= "secColor" id="headerTags">
+                <h1 class="alignTitleMiddle">HTML HEADINGS</h1>
+                <h1 class="headTags">Hello World</h1>
+                <h2 class="headTags">Hello World</h2>
+                <h3 class="black">Hello World</h3>
+                <h4 class="black">Hello World</h4>
                 <h5>Hello World</h5>
                 <h6>Hello World</h6>
                 <p>These are headers that can be made in the html. There are 6 differnt headers. H1 through h6 the biggest being h1 and getting smaller as you count up.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, ipsum!</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, ipsum!</p>
-            <!--TEXT TAGS ENDING-->
+                    <!--TEXT TAGS ENDING-->
             
-            <!--LINK TAG START-->
-            <h2>Anchor Tag</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, esse.</p>
+                    <!--LINK TAG START-->
+                    <div class="secColor">
+                <h2>Anchor Tag</h2>
+                <p>A anchor tag is a link tag.<!--<a href ="#"></a>--></p>
+            
             <section>
                 <nav>
                     <ul>
@@ -73,66 +96,85 @@
                     </ul>
                 </nav>
             </section>
-            <!--LINK TAG END-->
+            </div>
+                    <!--LINK TAG END-->
             
-            <!--MEDIA TAG START-->
-            <h2>IMAGES, VIDEOS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, consequuntur!</p>
-            <!--IMAGE TAG END-->
+                    <!--MEDIA TAG START-->
+                    <div class="secColor">
+                        <h2>IMAGES, VIDEOS</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, consequuntur!</p>
+                    </div>
+                    <!--IMAGE TAG END-->
             
-            <!--CAMEL CASING START-->
-            <h2>Camel Casing</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, eos!</p>
-            <!--CAMEL CASING END-->
+                    <!--CAMEL CASING START-->
+                    <div class="secColor">
+                <h2>Camel Casing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, eos!</p>
+            </div>
+                    <!--CAMEL CASING END-->
             
-            <!--NAV TAG START-->
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, qui!</p>
-            <!--NAV TAG END-->
+                    <!--NAV TAG START-->
+                    <div class="secColor">
+                <h2></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, qui!</p>
+            </div>
+                    <!--NAV TAG END-->
             
-            <!--ALT, TITLE TAGS START-->
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, fuga!</p>
-            <!--ALT, TITLE TAGS END-->
+                    <!--ALT, TITLE TAGS START-->
+                    <div class="secColor">
+                <h2>Title and Alt Tags</h2>
+                <p>Title tags tell the user the achor tag links to. Alt can be read by computers for people with disabilities</p>
+                <p>EX: </p>
+            </div>
+                    <!--ALT, TITLE TAGS END-->
 
-            <!--CONTAINER TAGS START-->
+                    <!--CONTAINER TAGS START-->
+                    <div class="secColor">
             <h2>Div, Span</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, quae?</p>
-            <!--CONTAINER TAGS END-->
+            <p>Div and Span tags are container tags. The div tag is a block container, but the span tag is a inline tag</p>
+            <p>EX:</p>
+            </div>
+                    <!--CONTAINER TAGS END-->
 
-            <!--TYPES OF SECTIONING TAGS START-->
-            <h2>Types of Sectioning Tags</h2>
-            <p>Header, Section, Article, Aside, Figure</p>
-            <header>
+                    <!--TYPES OF SECTIONING TAGS START-->
+                    <div class="secColor">
+                <h2>Types of Sectioning Tags</h2>
+                
+                <h3>Header</h3>
                 <p>Header tags go in the begining</p>
-            </header>
-            <section>
-            <p>Sections are segments in a webpage, headers, footers, etc.</p>
-        </section>
-            <article>
-            <p>Article are what the page is about. They may contain sections as related parts of the information.</p>
-        </article>
-            <aside>
-            <p>Aside tags contain extra information about the tag it is placed in.</p>
-        </aside>
-            <figure>
-            <p>Figure tags contain picures and the information the about the picture as a caption.</p>
-        </figure>
-            <!--TYPES OF SECTIONING TAGS END-->
+                
+                <h3>Section</h3>
+                <p>Sections are segments in a webpage, headers, footers, etc.</p>
+                
+                <h3>Article</h3>
+                <p>Article are what the page is about. They may contain sections as related parts of the information.</p>
+                
+                <h3>Aside</h3>
+                <p>Aside tags contain extra information about the tag it is placed in.</p>
+                
+                <h3>Figure</h3>
+                <p>Figure tags contain picures and the information the about the picture as a caption.</p>
+            </div>
+                    <!--TYPES OF SECTIONING TAGS END-->
             
-            <!--INLINE STYLES START-->
-            <h2>Inline Styles</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, dolores.</p>
-            <!--INLINE STYLES END-->
+                    <!--INLINE STYLES START-->
+                    <div class="secColor">
+                <h2>Inline Styles</h2>
+                <p>Inline styling in HTML is way of doing CSS styling in HTML</p>
+                <p>EX:</p>
+            </div>
+                    <!--INLINE STYLES END-->
             
-            <!--TYPES OF STYLING TAGS IN HTML START-->
-            <!--TYPES OF STYLING TAGS IN HTML ENDING-->
+                    <!--TYPES OF STYLING TAGS IN HTML START-->
+                    <!--TYPES OF STYLING TAGS IN HTML ENDING-->
             
-            <!--EXTRA TIPS START-->
-            <!--EXTRA TIPS ENDING-->
+                    <!--EXTRA TIPS START-->
+                    <!--EXTRA TIPS ENDING-->
             
+                </section>
+            </article>
         </main>
-        <footer>
+        <footer id="footer">
             <p>Copyright &copy 2016 Faith Blue. All rights reserved.</p>
         </footer>
     </body>
