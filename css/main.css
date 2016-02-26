@@ -81,7 +81,7 @@ p {
 /*BUTTONS*/
 .button {
     background-color:#999;
-    border:1px solid #FFF;
+    border:5px solid #382c2b;
     border-radius:5px;
     padding:20px;
 }
