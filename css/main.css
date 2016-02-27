@@ -44,6 +44,7 @@ p {
 
 #nav ul {
     background-color:#fff;
+    border-radius:6px;
     position:relative;
     right:500px;
     left:500px;
