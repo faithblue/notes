@@ -3,53 +3,88 @@
     <head>
         <title>Code Notes</title>
         
-        <link href="css/main.css" rel="stylesheet" type="text/css"/>
-        
         <meta charset="UTF-8" />
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
         <meta name="author" content="html notes, css notes"/>
+        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/script02.js"></script>
     </head>
     <body>
         <header id="header">
+            <img id="logo" src="images/BlueJay.png"/>
             <nav id="nav">
                 <ul id="drop-nav">
-                    <li class="currentPage"><a href="index.html">Home</a></li>
-                    <li><a href="html-home.html">HTML</a>
+                    <li class="currentPage border"><a href="index.html">Home</a></li>
+                    <li class="border"><a href="html-home.html">HTML</a>
                         <ul>
-                            <li><a href="html-notes.html">HTML Notes</a></li>
+                            <li class="drop"><a href="html-notes.html">HTML Notes</a></li>
                         </ul>
                     </li>
-                    <li><a href="css-home.html">CSS</a>
+                    <li class="border"><a href="css-home.html">CSS</a>
                         <ul>
-                            <li><a href="css-notes.html">CSS Notes</a></li>
+                            <li class="drop"><a href="css-notes.html">CSS Notes</a></li>
                         </ul>
                     </li>
-                    <li><a href="js-home.html">JavaScript</a>
+                    <li class="border"><a href="js-home.html">JavaScript</a>
                         <ul>
-                            <li><a href="js-notes.html">JavaScript Notes</a></li>
+                            <li class="drop"><a href="js-notes.html">JavaScript Notes</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </header>
         <main id="main">
-            <article id="codingTools">
-                <h2 class="alignTitleMiddle">Coding Tools</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, dolore, exercitationem, esse quidem porro facilis similique ex iure sed veniam nisi laudantium quo iusto quod facere. Sit at atque saepe assumenda nihil quis facere? Hic expedita possimus quo aspernatur ducimus in earum aperiam voluptates perspiciatis. Commodi, repellendus doloremque vitae. Vitae!</p>
-            </article>
-            <article id="about">
-                <h2 class="alignTitleMiddle">HTML, CSS, and JavaScript Notes</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, dolore, exercitationem, esse quidem porro facilis similique ex iure sed veniam nisi laudantium quo iusto quod facere. Sit at atque saepe assumenda nihil quis facere? Hic expedita possimus quo aspernatur ducimus in earum aperiam voluptates perspiciatis. Commodi, repellendus doloremque vitae. Vitae!</p>
-            </article>
-            <div class="mainWidth" id="indButtons">
-                <a href="html-notes.html" class="button">HTML</a>
-                <a href="css-notes.html" class="button">CSS</a>
-                <a href="javascript-notes.html" class="button">JavaScript</a>
+          <header>
+              <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://blog.codepen.io/wp-content/uploads/2012/07/Demo.jpg" width="100%" height="353px">
+                <div class="text">CodePen</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="http://esports.guru/wp-content/uploads/2016/03/uzXKuQq.jpg" style="width:100%; height:353px">
+                <div class="text">Cloud 9</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://cdn.tutsplus.com/net/uploads/2014/02/jsbin-retina-preview.png" width="100%" height="353px">
+                <div class="text">Jsbin</div>
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+          </header>
+          <article id="about">
+                <h2 class="alignTitleMiddle" id="centerHead">HTML, CSS, and JavaScript Notes</h2>
+                <p>Note of basic HTML, CSS, and JavaScript language. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptate enim nisi aspernatur ipsum numquam voluptatem neque officia delectus eaque harum distinctio quod ratione vero quae unde dicta at ad blanditiis itaque cupiditate consequuntur consequatur fuga ullam accusamus doloremque assumenda perferendis aut autem eligendi illum odit culpa aliquam rem eveniet!</p>
+            </article>
+            
+          <div id="indButtons">
+                <a href="html-notes.html" class="button" id="pushLeft">Learn HTML</a>
+                <a href="css-notes.html" class="button">Learn CSS</a>
+                <a href="js-notes.html" class="button" id="pushRight">Learn JavaScript</a>
+            </div>
+            
+          <h2 class="alignTitleMiddle">Coding Tools</h2>
         </main>
+        
         <footer id="footer">
-            <p>Copyright &copy 2015 Faith Blue. All rights reserved.</p>
+            <p>Copyright &copy; 2016 Faith Blue. All rights reserved.</p>
         </footer>
     </body>
 </html>

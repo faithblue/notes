@@ -4,6 +4,7 @@
 html, body {
     width:100%;
     height:100%;
+    font-family: 'Raleway', sans-serif;
     /*GIVE HTML AND BODY 100% WIDTH AND HEIGHT B/C*/
 }
 
@@ -22,7 +23,7 @@ a {
 }
 
 h1, h2 {
-    color:#1B4D6B;
+    color:#000;
 }
 
 p {
@@ -33,14 +34,24 @@ p {
 /*HEADER*/
 
 #header {
-    background-color:#0E2838;
+    background-color:#000;
+    border-radius: 2px;
+    opacity: 0.7;
     /*width:;*/
-    height:100px;
-    padding:10px;
+    height:150px;
+    padding:5px;
     
 }
 
 /*NAV */
+#nav {
+    position:relative;
+    right:550px;
+    left:530px;
+    bottom: 90px;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
 
 ul {
     list-style: none;
@@ -48,49 +59,49 @@ ul {
     margin: 0px;
 }
 
-ul li {
+#drop-nav .border {
       display: block;
       position: relative;
       float: left;
-      border:1px solid #000
+      /*border-top:1px solid #000;*/
+      /*border-bottom:1px solid #000;*/
 }
-  
+
 li ul {
   display: none;
 }
   
-ul li a {
+#drop-nav .border a {
       display: block;
-      background: #000;padding: 5px 10px 5px 10px;
+      /*background: ;*/
+      padding: 5px 10px 5px 10px;
       text-decoration: none;
       white-space: nowrap;
       color: #fff;
+      font-weight: 900;
 }
   
-ul li a:hover {
-      background: #000;
+/*#drop-nav li a:hover {*/
+/*      background: #fff;*/
       
-}
+/*}*/
   
 li:hover ul {
       display: block; 
       position: absolute;
-      
 }
   
 li:hover li {
     float: none;
-      
 }
   
-li:hover a {
-    background: #3af;
-      
-}
+/*li:hover a {*/
+/*    background-color: #999;*/
+/*}*/
   
-li:hover li a:hover {
-    background: #000;
-}
+/*li:hover li a:hover {*/
+/*    background-color: #fff;*/
+/*}*/
   
 #drop-nav li ul li {
     border-top: 0px;
@@ -98,11 +109,21 @@ li:hover li a:hover {
 }
   
 .currentPage a {
-    color:#256992;
+    color:black;
 }
 
-#nav ul li a:hover {
-    color:#1B4D6B;
+#nav .border:hover .drop {
+    opacity:0.7;
+    background-color: #999;
+}
+
+#nav .border:hover .drop {
+    opacity:0.7;
+    background-color: #999;
+}
+
+#nav ul .drop a:hover {
+    color:#000;
 }
 
 /*MAIN*/
@@ -111,42 +132,66 @@ li:hover li a:hover {
     margin:0px 10px;
 }
 
+#centerHead {
+    margin-right: 300px;    
+}
+
 .mainWidth {
-    width:300px;
+    width:1200px;
     margin:0px auto;
     margin-top:26px;
     margin-bottom:30px;
 }
 
+/*GALLERY*/
+#logo {
+    width: 350px;
+}
+.gallery {
+    width: 500px;
+    /*float:left;*/
+    margin:0px auto;
+}
+
 /*BUTTONS*/
 .button {
-    background-color:#0E2838;
-    color: #fff;
-    border:5px solid #999;
-    border-radius:5px;
-    padding:20px;
+    color:blue;
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .button:hover {
-    background-color: #3af;
-    color:#fff;
+    text-decoration: underline;
+    color:black;
 }
 
 #indButtons {
-    margin:100px 550px;
+    margin:90px;
+    position:relative;
+    right:550px;
+    left:340px;
 }
 
+#pushLeft {
+    padding-right: 50px;
+}
+
+#pushRight {
+    padding-left: 50px;
+}
 
 /*FOOTER*/
  footer {
       text-align:center;
-      background-color:#0E2838;
-      height:120px;
+      background-color:#000;
+      height:150px;
+      opacity:0.7;
+      font-family: 'Raleway', sans-serif;
  }
  
 #footer p {
     padding:25px;
-    color:#FFFFFF;
+    color:#fff;
 }
 
 /*EXTRAS*/
@@ -163,6 +208,26 @@ li:hover li a:hover {
     
 }
 
+ /*heading needs to be black*/
 .black {
 color:black;
+}
+
+/*slideshow*/
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
 }
