@@ -24,3 +24,11 @@
     padding:10px;
     text-decoration: none;
 }
+
+#main ul {
+    background-color: #fff;
+}
+
+.article {
+    margin: 5% 5%;
+}

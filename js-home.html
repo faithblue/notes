@@ -10,40 +10,64 @@
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
         <meta name="author" content="html notes, css notes"/>
+        
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        
+        <link rel="stylesheet" href="css/slideshow.css">
+
+        <link rel="stylesheet" href="css/main.css">
+        
+        <link rel="stylesheet" href="css/nav.css" type="text/css" />
+        
+        <link rel="stylesheet" href="css/gallery.css" type="text/css" />
+        
+        <link rel="stylesheet" href="css/screen.css" type="text/css" />
+        
+        <script src="js/slideshow.js"></script>
+        
+        <script type="text/javascript" src="js/nav.js"></script>
     </head>
     <body>
         <header id="header">
-            <img id="logo" src="images/logo-four.png"/>
-            <nav id="nav">
-                <ul id="drop-nav">
-                    <li class="currentPage border"><a href="index.html">Home</a></li>
-                    <li class="border"><a href="html-home.html">HTML</a>
-                        <ul>
-                            <li class="drop"><a href="html-notes.html">HTML Notes</a></li>
-                        </ul>
+            <img id="logo" src="images/BlueJay.png"/>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li  class="dropdown">
+                        <a href="html-home.html" class="dropbtn">HTML</a>
+                        <div class="dropdown-content">
+                            <a href="html-notes.html">HTML Notes</a>
+                        </div>
+                    </li> 
+            
+                    <li class="dropdown">
+                        <a href="css-home.html" class="dropbtn">CSS</a>
+                        <div class="dropdown-content">
+                            <a href="css-notes.html">CSS Notes</a>
+                        </div>
                     </li>
-                    <li class="border"><a href="css-home.html">CSS</a>
-                        <ul>
-                            <li class="drop"><a href="css-notes.html">CSS Notes</a></li>
-                        </ul>
+            
+                    <li class="dropdown">
+                        <a href="js-home.html" class="dropbtn">JavaScript</a>
+                        <div class="dropdown-content">
+                          <a href="js-notes.html">JavaScript Notes</a>
+                        </div>
                     </li>
-                    <li class="border"><a href="js-home.html">JavaScript</a>
-                        <ul>
-                            <li class="drop"><a href="js-notes.html">JavaScript Notes</a></li>
-                        </ul>
-                    </li>
+                    
                 </ul>
             </nav>
         </header>
         <main id="main">
-            <article>
+            <article class="article">
                 <!--WHAT HTML IS START-->
-                <section class="secColor">
+                <section class="secColor section">
                     <h2 class="alignTitleMiddle">What JavaScript Is</h2>
                     <p>HTML is a markup language for webpages. HTML stands for Hyper Text Markup Language. HTML is like the body of a webpage. It contains all the elements that you see on the webpage. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, sed, amet quaerat mollitia veniam explicabo praesentium quo molestias fugiat eveniet laudantium adipisci labore quas id consequatur ipsum reiciendis fuga voluptatibus.</p>
                 </section>
                 <!--WHAT HTML IS END-->
-                    
+                        
                 <!--WHY HTML START-->
                 <section class="secColor">
                     <h2 class="alignTitleMiddle">Why We Use JavaScript</h2>

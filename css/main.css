@@ -2,15 +2,15 @@
 /*colors: body:382c2b, headings:3496d1, header:0E2838, p:000000, ul:382C2B footer:#0E2838, a:ffffff, */
 
 html, body {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     font-family: 'Raleway', sans-serif;
     /*GIVE HTML AND BODY 100% WIDTH AND HEIGHT B/C*/
 }
 
 body {
-    margin:0px;
-    padding:0px;
+    margin: 0%;
+    padding: 0%;
 }
 
 li {
@@ -27,131 +27,53 @@ h1, h2 {
 }
 
 p {
-    color:#000000;
+    color:#000;
 }
 
 
 /*HEADER*/
 
 #header {
-    background-color:#000;
+    background-color:#333;
     border-radius: 2px;
     opacity: 0.7;
-    /*width:;*/
-    height:150px;
+    width:;
+    height:8%;
     padding:5px;
-    
-}
-
-/*NAV */
-#nav {
-    position:relative;
-    right:550px;
-    left:530px;
-    bottom: 90px;
-    background-color: #fff;
-    font-family: 'Raleway', sans-serif;
-}
-
-ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-#drop-nav .border {
-      display: block;
-      position: relative;
-      float: left;
-      /*border-top:1px solid #000;*/
-      /*border-bottom:1px solid #000;*/
-}
-
-li ul {
-  display: none;
-}
-  
-#drop-nav .border a {
-      display: block;
-      /*background: ;*/
-      padding: 5px 10px 5px 10px;
-      text-decoration: none;
-      white-space: nowrap;
-      color: #fff;
-      font-weight: 900;
-}
-  
-/*#drop-nav li a:hover {*/
-/*      background: #fff;*/
-      
-/*}*/
-  
-li:hover ul {
-      display: block; 
-      position: absolute;
-}
-  
-li:hover li {
-    float: none;
-}
-  
-/*li:hover a {*/
-/*    background-color: #999;*/
-/*}*/
-  
-/*li:hover li a:hover {*/
-/*    background-color: #fff;*/
-/*}*/
-  
-#drop-nav li ul li {
-    border-top: 0px;
-      
-}
-  
-.currentPage a {
-    color:black;
-}
-
-#nav .border:hover .drop {
-    opacity:0.7;
-    background-color: #999;
-}
-
-#nav .border:hover .drop {
-    opacity:0.7;
-    background-color: #999;
-}
-
-#nav ul .drop a:hover {
-    color:#000;
 }
 
 /*MAIN*/
 
 #main {
-    margin:0px 10px;
+    margin:0 5%;
 }
 
 #centerHead {
-    margin-right: 300px;    
+    /*margin-right: 300px;*/
 }
 
+
 .mainWidth {
-    width:1200px;
-    margin:0px auto;
-    margin-top:26px;
-    margin-bottom:30px;
+    width:100%;
+    margin:0% auto;
+    margin-top:26%;
+    margin-bottom:30%;
+}
+
+#main {
+    margin-top: 5%;
 }
 
 /*GALLERY*/
 #logo {
-    width: 350px;
+    /*width: 350px;*/
+    float: left;
 }
-.gallery {
-    width: 500px;
+/*.gallery {*/
+/*    width: 500px;*/
     /*float:left;*/
-    margin:0px auto;
-}
+/*    margin:0px auto;*/
+/*}*/
 
 /*BUTTONS*/
 .button {
@@ -165,69 +87,55 @@ li:hover li {
     color:black;
 }
 
-#indButtons {
-    margin:90px;
-    position:relative;
-    right:550px;
-    left:340px;
+/*for index btns*/
+#indBtnDiv {
+    margin: 0 10%;
 }
 
-#pushLeft {
-    padding-right: 50px;
+#floatLeft {
+    /*padding-right: 50%;*/
 }
 
-#pushRight {
-    padding-left: 50px;
+#centerBtn {
+    margin-left: 35.5%;
+}
+
+#floatRight {
+    float: right;
 }
 
 /*FOOTER*/
  footer {
-      text-align:center;
-      background-color:#000;
-      height:150px;
-      opacity:0.7;
+      background-color:#333;
+      display: inline-block;
       font-family: 'Raleway', sans-serif;
+      height: auto;
+      opacity:0.7;
+      text-align:center;
+      width:100%;
  }
  
 #footer p {
-    padding:25px;
+    /*padding:25px;*/
     color:#fff;
 }
 
 /*EXTRAS*/
 
-.alignTitleMiddle {
+.alignTitleMid {
+    font-weight: 700;
     text-align:center;
 }
 
-.indexImg {
-    position:relative;
-    right:500px;
-    left:530px;
-    margin-top:10px;
+/*.indexImg {*/
+/*    position:relative;*/
+/*    right:500px;*/
+/*    left:530px;*/
+/*    margin-top:10px;*/
     
-}
+/*}*/
 
  /*heading needs to be black*/
 .black {
 color:black;
-}
-
-/*slideshow*/
-
-#slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 240px; 
-    height: 240px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-}
-
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
 }

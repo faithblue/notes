@@ -9,106 +9,124 @@
         <meta name="author" content="html notes, css notes"/>
         
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        
         <link href="css/main.css" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="css/nav.css" type="text/css" />
+        
         <link href="css/html-notes.css" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="css/screen.css" type="text/css" />
+        
         <link href="css/javascript.css" rel="stylesheet" type="text/css">
+        
+        <script type="text/javascript" src="js/nav.js"></script>
     </head>
     <body>
         <header id="header">
-            <img id="logo" src="images/logo-four.png"/>
-            <nav id="nav">
-                <ul id="drop-nav">
-                    <li class="currentPage border"><a href="index.html">Home</a></li>
-                    <li class="border"><a href="html-home.html">HTML</a>
-                        <ul>
-                            <li class="drop"><a href="html-notes.html">HTML Notes</a></li>
-                        </ul>
+            <img id="logo" src="images/BlueJay.png"/>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li  class="dropdown">
+                        <a href="html-home.html" class="dropbtn">HTML</a>
+                        <div class="dropdown-content">
+                            <a href="html-notes.html">HTML Notes</a>
+                        </div>
+                    </li> 
+            
+                    <li class="dropdown">
+                        <a href="css-home.html" class="dropbtn">CSS</a>
+                        <div class="dropdown-content">
+                            <a href="css-notes.html">CSS Notes</a>
+                        </div>
                     </li>
-                    <li class="border"><a href="css-home.html">CSS</a>
-                        <ul>
-                            <li class="drop"><a href="css-notes.html">CSS Notes</a></li>
-                        </ul>
+            
+                    <li class="dropdown">
+                        <a href="js-home.html" class="dropbtn">JavaScript</a>
+                        <div class="dropdown-content">
+                          <a href="js-notes.html">JavaScript Notes</a>
+                        </div>
                     </li>
-                    <li class="border"><a href="js-home.html">JavaScript</a>
-                        <ul>
-                            <li class="drop"><a href="js-notes.html">JavaScript Notes</a></li>
-                        </ul>
-                    </li>
+                    
                 </ul>
             </nav>
         </header>
         <main class="main">
             <!--WHAT CSS IS START-->
-            <div class="secColor">
-                <h2>What CSS Is</h2>
-                <p>CSS is a markup language that designs webpages. CSS is a stylesheet that gives .</p>
-            </div>
+            <!--<div class="secColor">-->
+            <!--    <h2>What CSS Is</h2>-->
+            <!--    <p>CSS is a markup language that designs webpages. CSS is a stylesheet that gives .</p>-->
+            <!--</div>-->
             <!--WHAT CSS IS END-->
-            
-            <!--HOW TO START CSS FILE START-->
-            <div class="secColor">
-                <h2>How To Start CSS File</h2>
-                <p>To link a CSS file to HTML...</p>
-                <p>EX:</p>
-                <img src="screenshots/ext-css.PNG" alt="#"/>
-            </div>
-            <!--HOW TO START CSS FILE END-->
-            
-            <!--COMMENTING CSS TAGS-->
-            <div class="secColor">
-                <h2>Commenting CSS Code</h2>
-                <p>To comment in CSS</p>
-                <p>EX:</p>
-                <img src="screenshots/comment-css.PN"/>
-            </div>
-            <!--COMMENTING CSS TAGS ENDING-->
-            
-            <!--TEXT TAGS START-->
-            <div class="secColor">
-                <h1 class="alignTitleMiddle">CSS</h1>
-                <p>CSS can change the font, color, and size of text. Control text on a webpage with...</p>
-                <p>EX:
-                background-color: blue;
-                font-size: 13px;
-                </p>
-                <img src="screenshots/font.PNG"/>
-            </div>
-            <!--TEXT TAGS ENDING-->
-            
-            <!--LINK TAG START-->
-            <div class="secColor">
-                <h2>Anchor Tag</h2>
-                <p>You can control HTML anchor tags with CSS</p>
-                <p>EX:</p>
-            </div>
-            <!--LINK TAG END-->
-            
-            <!--MEDIA TAG START-->
-            <div class="secColor">
-                <h2>IMAGES, VIDEOS</h2>
-                <p>YOu can add or change images and videos with CSS</p>
-                <p>EX:</p>
-            </div>
-            <!--IMAGE TAG END-->
-            
-            <!--CAMEL CASING START-->
-            <div class="secColor">
-                <h2>Camel Casing</h2>
-                <p>Using class and id names you can change all or one thing on a webpage.</p>
-                <p>EX:</p>
-            </div>
-            <!--CAMEL CASING END-->
-
-            <!--CONTAINER TAGS START-->
-            <div class="secColor">
-                <h2>The Box Model</h2>
-                <p>The box model contains...</p>
-                <p>EX:</p>
-            </div>
-            <!--CONTAINER TAGS END-->
-            
-            <!--EXTRA TIPS-->
-            <!--EXTRA TIPS ENDING-->
+            <article class="article">
+                <section class="section">
+                    <!--HOW TO START CSS FILE START-->
+                    <div class="secColor">
+                        <h2>How To Start CSS File</h2>
+                        <p>To link a CSS file to HTML...</p>
+                        <p>EX:</p>
+                        <img src="screenshots/ext-css.PNG" alt="#"/>
+                    </div>
+                    <!--HOW TO START CSS FILE END-->
+                    
+                    <!--COMMENTING CSS TAGS-->
+                    <div class="secColor">
+                        <h2>Commenting CSS Code</h2>
+                        <p>To comment in CSS</p>
+                        <p>EX:</p>
+                        <img src="screenshots/comment-css.PNG"/>
+                    </div>
+                    <!--COMMENTING CSS TAGS ENDING-->
+                    
+                    <!--TEXT TAGS START-->
+                    <div class="secColor">
+                        <h1 class="alignTitleMiddle">Fonts</h1>
+                        <p>CSS can change the font, color, and size of text. Control text on a webpage with...</p>
+                        <p>EX:</p>
+                        <img src="screenshots/font.PNG"/>
+                    </div>
+                    <!--TEXT TAGS ENDING-->
+                    
+                    <!--LINK TAG START-->
+                    <div class="secColor">
+                        <h2>Background-Image</h2>
+                        <p>You can control HTML bakground-image with CSS</p>
+                        <p>EX:</p>
+                        <img src="screenshots/bg-img.PNG"/>
+                    </div>
+                    <!--LINK TAG END-->
+                    
+                    <!--MEDIA TAG START-->
+                    <!--<div class="secColor">-->
+                    <!--    <h2>IMAGES, VIDEOS</h2>-->
+                    <!--    <p>YOu can add or change images and videos with CSS</p>-->
+                    <!--    <p>EX:</p>-->
+                    <!--</div>-->
+                    <!--IMAGE TAG END-->
+                    
+                    <!--CAMEL CASING START-->
+                    <div class="secColor">
+                        <h2>Camel Casing</h2>
+                        <p>Using class and id names you can change all or one thing on a webpage.</p>
+                        <p>EX:</p>
+                        <img src="screenshots/camelCasing-css.PNG"></img>
+                    </div>
+                    <!--CAMEL CASING END-->
+        
+                    <!--CONTAINER TAGS START-->
+                    <div class="secColor">
+                        <h2>The Box Model</h2>
+                        <p>The box model contains...</p>
+                        <p>EX:</p>
+                        <img src="http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png"></img>
+                    </div>
+                    <!--CONTAINER TAGS END-->
+                    
+                    <!--EXTRA TIPS-->
+                    <!--EXTRA TIPS ENDING-->
+                </section>
+            </article>
         </main>
         <footer id="footer">
             <p>Copyright &copy; 2016 Faith Blue. All rights reserved.</p>

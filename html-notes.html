@@ -2,255 +2,99 @@
 <html>
     <head>
         <title>Code Notes</title>
-        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-        <link href="css/main.css" rel="stylesheet" type="text/css"/>
-        <link href="css/html-notes.css" rel="stylesheet" type="text/css"/>
         
         <meta charset="UTF-8" />
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
         <meta name="author" content="html notes, css notes"/>
+        
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="css/html-notes.css" rel="stylesheet" type="text/css"/>
+        
+        <link rel="stylesheet" href="css/nav.css" type="text/css" />
+        
+        <link rel="stylesheet" href="css/screen.css" type="text/css" />
+        
+        <script type="text/javascript" src="js/nav.js"></script>
     </head>
     <body>
         <header id="header">
-            <img id="logo" src="images/logo-four.png"/>
-            <nav id="nav">
-                <ul id="drop-nav">
-                    <li class="currentPage border"><a href="index.html">Home</a></li>
-                    <li class="border"><a href="html-home.html">HTML</a>
-                        <ul>
-                            <li class="drop"><a href="html-notes.html">HTML Notes</a></li>
-                        </ul>
+            <img id="logo" src="images/BlueJay.png"/>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li  class="dropdown">
+                        <a href="html-home.html" class="dropbtn">HTML</a>
+                        <div class="dropdown-content">
+                            <a href="html-notes.html">HTML Notes</a>
+                        </div>
+                    </li> 
+            
+                    <li class="dropdown">
+                        <a href="css-home.html" class="dropbtn">CSS</a>
+                        <div class="dropdown-content">
+                            <a href="css-notes.html">CSS Notes</a>
+                        </div>
                     </li>
-                    <li class="border"><a href="css-home.html">CSS</a>
-                        <ul>
-                            <li class="drop"><a href="css-notes.html">CSS Notes</a></li>
-                        </ul>
+            
+                    <li class="dropdown">
+                        <a href="js-home.html" class="dropbtn">JavaScript</a>
+                        <div class="dropdown-content">
+                          <a href="js-notes.html">JavaScript Notes</a>
+                        </div>
                     </li>
-                    <li class="border"><a href="js-home.html">JavaScript</a>
-                        <ul>
-                            <li class="drop"><a href="js-notes.html">JavaScript Notes</a></li>
-                        </ul>
-                    </li>
+                    
                 </ul>
             </nav>
         </header>
         <main id="main">
-            <article>
-                <h2 class="alignTitleMiddle">HTML Notes</h2>
-                <section>
-                    <!--HOW TO START HTML DOC START-->
-                    <div class="secColor">
-                        <h2>How To Start HTML File</h2>
-                        <img src="screenshots/doctype.PNG" alt=""/>
-                    </div>
-                    <!--HOW TO START HTML DOC END-->
-            
-                    <!--COMMENTING TAGS-->
-                    <div class="secColor">
-                        <h2>Commenting HTML Code</h2>
-                        <img src="screenshots/comment.PNG" alt="#"/>
-                        <ul>
-                            <li>comment tag in HTML</li>
-                        </ul>
-                    </div>
-                    <!--COMMENTING TAGS ENDING-->
-        
-                    <!--TEXT TAGS START-->
-                    <div class= "secColor" id="headerTags">
-                        
-                        <!--HEADINGS-->
-                        <h1 class="alignTitleMiddle">HTML HEADINGS</h1>
-                        <h6>Hello World</h6>
-                        <h5>Hello World</h5>
-                        <h4 class="black">Hello World</h4>
-                        <h3 class="black">Hello World</h3>
-                        <h2 class="headTags black">Hello World</h2>
-                        <h1 class="headTags black">Hello World</h1>
-                        <p>These are headers that can be made in the html. There are 6 differnt headers. H1 through h6 the biggest being h1 and getting smaller as you count up.</p>
-                        <img src="screenshots/headings.PNG" alt="#"/>
-                        
-                        <!--PARAGRAPHS-->
-                        <h2>Paragraphs</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, sed.</p>
-                        <img src="screenshots/p.PNG" alt="#"/>
-                    </div>
-                    <!--TEXT TAGS ENDING-->
-            
-                    <!--LINK TAG START-->
-                    <div class="secColor">
-                        <h2>Anchor Tag</h2>
-                        <img src="screenshots/a-href.PNG"/>
-                        <ul>
-                            <li>hyper link</li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <img src="screenshots/_blank.PNG" alt="#"/>
-                        <ul>
-                            <li>for external link</li>
-                        </ul>
-                    </div>
-                    <!--LINK TAG END-->
-            
-                    <!--MEDIA TAG START-->
-                    <div class="secColor">
-                        <h2>IMAGES, VIDEOS</h2>
-                        <img src="screenshots/img.PNG" alt="#"/>
-                        <ul>
-                            <li>image link closes itself</li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <img src="screenshots/video.PNG" alt="#"/>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <!--MEDIA TAG END-->
-            
-                    <!--LIST TAG START-->
-                    <div class="secColor">
-                        <h2>List Tags</h2>
-                        
-                        <h2>Unordered Lists</h2>
-                        <img src="screenshots/ul.PNG" alt="#"/>
-                        <ul>
-                            <li></li>
-                        </ul>
-                        
-                        <h2>Ordered Lists</h2>
-                        <img src="screenshots/ol.PNG" alt="#"/>
-                        <ul>
-                            <li></li>
-                        </ul>
-                        
-                        <h2>Lists</h2>
-                        <img src="screenshots/li.PNG" alt="#"/>
-                        <ul>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <!--LIST TAG END-->
-            
-                    <!--NAV TAG START-->
-                    <div class="secColor">
-                        <h2>Navigation</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, qui!</p>
-                        <img src="screenshots/nav.PNG" alt="#"/>
-                    </div>
-                    <!--NAV TAG END-->
-            
-                    <!--ALT, TITLE TAGS START-->
-                    <div class="secColor">
-                        <h2>Title and Alt Tags</h2>
-                        <p>Title tags tell the user the achor tag links to. Alt can be read by computers for people with disabilities</p>
-                        <img src="screenshots/title.PNG" alt="#"/>
-                        <img src="screenshots/alt.PNG" alt="#"/>
-                        <ul>
-                            <li>"alternate"</li>
-                            <li>for people with disabilities who have screen readers</li>
-                        </ul>
-                    </div>
-                    <!--ALT, TITLE TAGS END-->
-
-                    <!--CONTAINER TAGS START-->
-                    <div class="secColor">
-                        <h2>Div, Span</h2>
-                        <p>Div and Span tags are container tags. The div tag is a block container, but the span tag is a inline tag</p>
-                        <img src="screenshots/div.PNG" alt="#"/>
-                        <ul>
-                            <li>tag contain certain tags/content</li>
-                            <li></li>
-                        </ul>
-                        <img src="screenshots/span.PNG" alt="#"/>
-                    </div>
-                    <!--CONTAINER TAGS END-->
-
-                    <!--TYPES OF LAYOUT TAGS START-->
-                    <div class="secColor">
-                        <h2>Types of Layout Tags</h2>
-                
-                        <h3>Header</h3>
-                        <p>Header tags go in the begining</p>
-                
-                        <h3>Section</h3>
-                        <p>Sections are segments in a webpage, headers, footers, etc.</p>
-                
-                        <h3>Article</h3>
-                        <p>Article are what the page is about. They may contain sections as related parts of the information.</p>
-                
-                        <h3>Aside</h3>
-                        <p>Aside tags contain extra information about the tag it is placed in.</p>
-                
-                        <h3>Figure</h3>
-                        <p>Figure tags contain picures and the information the about the picture as a caption.</p>
-                </div>
-                    <!--TYPES OF LAYOUT TAGS END-->
-                    
-                    <!--CAMEL CASING START-->
-                    <div class="secColor">
-                        <h2>Camel Casing</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, eos!</p>
-                        <img src="screenshots/camelCasing.PNG" alt="">
-                    </div>
-                    <!--CAMEL CASING END-->
-                        
-                    <!--INLINE STYLES START-->
-                    <div class="secColor">
-                        <h2>Inline Styles</h2>
-                        <p>Inline styling in HTML is way of doing CSS styling in HTML</p>
-                       <img src="screenshots/inline-style.PNG" alt="">
-                       <ul>
-                           <li>in line style in html</li>
-                           <li>style only aplplies to one page</li>
-                           <li></li>
-                       </ul>
-                    </div>
-                    <!--INLINE STYLES END-->
-                    
-                    <!--INTERNAL STYLES START-->
-                    <div class="secColor">
-                        <h2>Internal Styles</h2>
-                       <img src="screenshots/internal-style.PNG" alt="#"/>
-                       <ul>
-                           <li>only styles whats on html page</li>
-                           <li>put in head tag</li>
-                           <li>internal styling in HTML is another way of doing CSS styling in HTML</li>
-                           <li></li>
-                           <li></li>
-                       </ul>
-                    </div>
-                    <!--INTERNAL STYLES END-->
-            
-                    <!--TYPES OF STYLING TAGS IN HTML START-->
-                    <!--TYPES OF STYLING TAGS IN HTML ENDING-->
-            
-                    <!--EXTRA TIPS START-->
-                    <h2>Extra Tips</h2>
-                    <ul>
-                        <li>any time making URLs make sure all are lower case</li>
-                        <li>nothing wrong with upper case tags</li>
-                        <li>whenever indent tags it is called nesting, makes the code look neat</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <!--EXTRA TIPS ENDING-->
-            
+            <article class="article">
+                <!--WHAT HTML IS START-->
+                <section class="secColor">
+                    <h2 class="alignTitleMiddle">What HTML Is</h2>
+                    <p>HTML is a markup language for webpages. HTML stands for Hyper Text Markup Language. HTML is like the body of a webpage. It contains all the elements that you see on the webpage. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, sed, amet quaerat mollitia veniam explicabo praesentium quo molestias fugiat eveniet laudantium adipisci labore quas id consequatur ipsum reiciendis fuga voluptatibus.</p>
                 </section>
+                <!--WHAT HTML IS END-->
+                    
+                <!--WHY HTML START-->
+                <section class="secColor">
+                    <h2 class="alignTitleMiddle">Why We Use HTML</h2>
+                     <p>Structural mark-up is what we see as the skeleton of the site the main tags that buld our site. Semantic mark-up Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quos, eos, natus, rem commodi modi debitis ducimus et ab atque reprehenderit veritatis dolor mollitia cum animi iste omnis aliquam sapiente!</p>
+                 </section>
+                <!--WHY HTML END-->
+                    
+                <!--WHAT WE USE HTML FOR START-->                                
+                <section class="secColor">
+                    <h2 class="alignTitleMiddle">We Use HTML To</h2>
+                    <p>We use HTML to put in links and images in webpages. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, delectus soluta saepe aperiam necessitatibus perspiciatis sint nesciunt! Vel, ducimus, nobis, atque officia quaerat doloremque obcaecati architecto consequatur iste optio numquam!</p>
+                </section>
+                <!--WHAT WE USE HTML FOR END-->
+
+                <!--FUTURE CAREER WITH HTML START -->
+                <section class="secColor">
+                    <h2 class="alignTitleMiddle">Future Career</h2>
+                     <p>HTML can lead to a career as a web developer.</p>
+                 </section>
+                <!--FUTURE CAREER WITH HTML START-->
+                    
+                <!--WHO USES HTML START -->
+                <section class="secColor">
+                    <h2 class="alignTitleMiddle">Who Uses HTML</h2>
+                    <p>Google, Yahoo, and Apple use HTML</p>
+                 </section>
+                <!--WHO USES HTML END-->
+                
             </article>
         </main>
         <footer id="footer">
-            <p>Copyright &copy; 2016 Faith Blue. All rights reserved.</p>
+            <p>Copyright &copy 2016 Faith Blue. All rights reserved.</p>
         </footer>
-        <script type="text/javascript" src=".javascript/script02.js"></script>
+        <script type="text/javascript" src="javascript/script02.js"></script>
     </body>
 </html>
         
